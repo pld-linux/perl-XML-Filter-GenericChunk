@@ -26,7 +26,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 XML::Filter::GenericChunk is inherited by XML::SAX::Base.
 XML::Filter::GenericChunk itself is an abstract class, therefore as
-a filter it will not result any useful output.  If you need a simple
+a filter it will not result any useful output. If you need a simple
 Chunk filter for your SAX pipeline, check XML::Filter::CharacterChunk
 which is shipped with this module.
 

@@ -3,8 +3,8 @@
 %bcond_without	tests		# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	XML
-%define	pnam	Filter-GenericChunk
+%define		pdir	XML
+%define		pnam	Filter-GenericChunk
 Summary:	XML::Filter::GenericChunk - base class for SAX filters parsing WellBallanced chunks
 Summary(pl):	XML::Filter::GenericChunk - klasa bazowa dla filtrów SAX analizuj±cych fragmenty WellBallanced
 Name:		perl-XML-Filter-GenericChunk

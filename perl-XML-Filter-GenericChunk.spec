@@ -30,8 +30,12 @@ a filter it will not result any useful output.  If you need a simple
 Chunk filter for your SAX pipeline, check XML::Filter::CharacterChunk
 which is shipped with this module.
 
-# %description -l pl
-# TODO
+%description -l pl
+XML::Filter::GenericChunk jest dziedziczona przez XML::SAX::Base.
+Sama XML::Filter::GenericChunk jest abstrakcyjn± klas±, wiêc jako
+filtr nie da ¿adnego przydatnego wyj¶cia. Je¶li potrzebny jest prosty
+filtr Chunk dla potoków SAX, mo¿na sprawdziæ klasê
+XML::Filter::CharacterChunk do³±czon± do tego modu³u.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -54,5 +58,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{perl_vendorlib}/%{pdir}/*/*.pm
+%{perl_vendorlib}/XML/*/*.pm
 %{_mandir}/man3/*

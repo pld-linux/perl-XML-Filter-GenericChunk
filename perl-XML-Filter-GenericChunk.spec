@@ -9,7 +9,7 @@ Summary:	XML::Filter::GenericChunk - base class for SAX filters parsing WellBall
 Summary(pl):	XML::Filter::GenericChunk - klasa bazowa dla filtrów SAX analizuj±cych fragmenty WellBallanced
 Name:		perl-XML-Filter-GenericChunk
 Version:	0.06
-Release:	1
+Release:	2
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -18,6 +18,7 @@ BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-XML-LibXML >= 1.40
+BuildRequires:	perl-XML-LibXML-SAX
 BuildRequires:	perl-XML-SAX
 %endif
 BuildArch:	noarch

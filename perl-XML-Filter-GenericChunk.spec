@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	Filter-GenericChunk
 Summary:	XML::Filter::GenericChunk - base class for SAX filters parsing WellBallanced chunks
-Summary(pl):	XML::Filter::GenericChunk - klasa bazowa dla filtrów SAX analizuj±cych fragmenty WellBallanced
+Summary(pl.UTF-8):   XML::Filter::GenericChunk - klasa bazowa dla filtrÃ³w SAX analizujÄ…cych fragmenty WellBallanced
 Name:		perl-XML-Filter-GenericChunk
 Version:	0.06
 Release:	2
@@ -31,12 +31,12 @@ a filter it will not result any useful output. If you need a simple
 Chunk filter for your SAX pipeline, check XML::Filter::CharacterChunk
 which is shipped with this module.
 
-%description -l pl
+%description -l pl.UTF-8
 XML::Filter::GenericChunk jest dziedziczona przez XML::SAX::Base.
-Sama XML::Filter::GenericChunk jest abstrakcyjn± klas±, wiêc jako
-filtr nie da ¿adnego przydatnego wyj¶cia. Je¶li potrzebny jest prosty
-filtr Chunk dla potoków SAX, mo¿na sprawdziæ klasê
-XML::Filter::CharacterChunk do³±czon± do tego modu³u.
+Sama XML::Filter::GenericChunk jest abstrakcyjnÄ… klasÄ…, wiÄ™c jako
+filtr nie da Å¼adnego przydatnego wyjÅ›cia. JeÅ›li potrzebny jest prosty
+filtr Chunk dla potokÃ³w SAX, moÅ¼na sprawdziÄ‡ klasÄ™
+XML::Filter::CharacterChunk doÅ‚Ä…czonÄ… do tego moduÅ‚u.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}

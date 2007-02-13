@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	Filter-GenericChunk
 Summary:	XML::Filter::GenericChunk - base class for SAX filters parsing WellBallanced chunks
-Summary(pl.UTF-8):   XML::Filter::GenericChunk - klasa bazowa dla filtrów SAX analizujących fragmenty WellBallanced
+Summary(pl.UTF-8):	XML::Filter::GenericChunk - klasa bazowa dla filtrów SAX analizujących fragmenty WellBallanced
 Name:		perl-XML-Filter-GenericChunk
 Version:	0.06
 Release:	2
